@@ -20,3 +20,18 @@ while(i < 16) {
 }
 console.log('\n')
 
+/* Задание 3 */
+console.log('Задача 3, Шахматная доска');
+let x = 0;
+while(x < 8) {
+    if (x % 2 == 0) {
+        console.log(' # # # #');
+    } 
+    else {
+        console.log('# # # # ');
+    }
+    x++;
+}
+console.log('\n')
+
+
