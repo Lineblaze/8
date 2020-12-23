@@ -6,3 +6,17 @@ for (let i = 1; i <= n; i++) {
 }
 console.log('\n')
 
+/* Задание 2 */
+console.log('Задача 2, Четное-нечетное');
+let i = 0;
+while(i < 16) {
+    if (i % 2 == 0) {
+        console.log(`${i} - ${'четное'}`);
+    } 
+    else {
+        console.log(`${i} - ${'нечетное'}`);
+    }
+    i++;
+}
+console.log('\n')
+
