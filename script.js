@@ -59,6 +59,12 @@ if (num3 <= num2 && num2 <= num1) {
 }   
 console.log('\n')
 
+/* Задание 5 */
+console.log('Задание 5, Максимальное значение');
+let nums = [1, 0, -4, 8, -5];
+console.log(Math.max(1, 0, -4, 8, -5));
+console.log('\n')
+
 
 
 
